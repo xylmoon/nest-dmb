@@ -1,0 +1,51 @@
+{{extend './layout.html'}}
+{{block 'title'}}
+出错啦! - dongmanbu.cn
+{{/block}}
+{{block 'head'}}
+<style>
+    html,body{
+        height: 100%;
+    }
+    body{
+        background: #f4f5f7;
+    }
+    .content{
+        padding-top: 100px;
+    }
+    .content-inner{
+        width: 980px;
+        padding-bottom: 100px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 10px
+    }
+    .message{
+        margin-top: 30px;
+        margin-left: 240px;
+    }
+    .message li,pre{
+        color: #99a2aa;
+        font-weight: bold;
+        font-size: 14px;
+    }
+</style>
+{{/block}}
+{{block 'content'}}
+<div class="content">
+    <div class="content-inner">
+        <img src="/public/index/pic/very_sorry.png" alt="">
+        <ul class="message">
+        <li class="status">错误号：{{status}}</li>
+        <li class="ip">用户IP：{{ip}}</li>   
+        <li class="fullURL">请求地址：{{path}}</li>
+        <li style="margin-top:20px;">
+            <pre>错误信息: {{message}}</pre>
+        </li>
+        </ul>
+    </div>
+
+</div>
+
+
+{{/block}}
