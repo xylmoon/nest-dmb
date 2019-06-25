@@ -1,0 +1,247 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,index_bgm_mp3,bintap_mp3,logo_png,index_png",
+			"name": "preload"
+		},
+		{
+			"keys": "SwordsMan_ske_json,SwordsMan_tex_json,SwordsMan_tex_png",
+			"name": "detail"
+		},
+		{
+			"keys": "leimu_png,paojie_png,saber2_png",
+			"name": "scene"
+		},
+		{
+			"keys": "1_png,2_png,3_png,4_png,5_png,6_png,7_png,dialog-bg_png,index_bgm2_mp3,8_png,9_png",
+			"name": "cg"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/game/longgu/SwordsMan/SwordsMan_ske.json",
+			"type": "json",
+			"name": "SwordsMan_ske_json"
+		},
+		{
+			"url": "assets/game/longgu/SwordsMan/SwordsMan_tex.json",
+			"type": "json",
+			"name": "SwordsMan_tex_json"
+		},
+		{
+			"url": "assets/game/longgu/SwordsMan/SwordsMan_tex.png",
+			"type": "image",
+			"name": "SwordsMan_tex_png"
+		},
+		{
+			"url": "assets/game/index/index_bgm.mp3",
+			"type": "sound",
+			"name": "index_bgm_mp3"
+		},
+		{
+			"url": "assets/game/loading/leimu.png",
+			"type": "image",
+			"name": "leimu_png"
+		},
+		{
+			"url": "assets/game/loading/paojie.png",
+			"type": "image",
+			"name": "paojie_png"
+		},
+		{
+			"url": "assets/game/loading/saber.png",
+			"type": "image",
+			"name": "saber2_png"
+		},
+		{
+			"url": "assets/game/index/bintap.mp3",
+			"type": "sound",
+			"name": "bintap_mp3"
+		},
+		{
+			"url": "assets/game/index/logo.png",
+			"type": "image",
+			"name": "logo_png"
+		},
+		{
+			"url": "assets/game/index/index.png",
+			"type": "image",
+			"name": "index_png"
+		},
+		{
+			"url": "assets/game/cg/1.png",
+			"type": "image",
+			"name": "1_png"
+		},
+		{
+			"url": "assets/game/cg/2.png",
+			"type": "image",
+			"name": "2_png"
+		},
+		{
+			"url": "assets/game/cg/3.png",
+			"type": "image",
+			"name": "3_png"
+		},
+		{
+			"url": "assets/game/cg/4.png",
+			"type": "image",
+			"name": "4_png"
+		},
+		{
+			"url": "assets/game/cg/5.png",
+			"type": "image",
+			"name": "5_png"
+		},
+		{
+			"url": "assets/game/cg/6.png",
+			"type": "image",
+			"name": "6_png"
+		},
+		{
+			"url": "assets/game/cg/7.png",
+			"type": "image",
+			"name": "7_png"
+		},
+		{
+			"url": "assets/game/cg/dialog-bg.png",
+			"type": "image",
+			"name": "dialog-bg_png"
+		},
+		{
+			"url": "assets/game/index/index_bgm2.mp3",
+			"type": "sound",
+			"name": "index_bgm2_mp3"
+		},
+		{
+			"url": "assets/game/cg/8.png",
+			"type": "image",
+			"name": "8_png"
+		},
+		{
+			"url": "assets/game/cg/9.png",
+			"type": "image",
+			"name": "9_png"
+		}
+	]
+}
